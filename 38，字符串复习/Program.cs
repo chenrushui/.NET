@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace _38_字符串复习
 {
     class Program
-    {
+    {   
         static void Main(string[] args)
         {
             //复习字符串的常用方法:不可变性；可以当做是字符数组，通过索引器进行遍历；
@@ -26,7 +26,9 @@ namespace _38_字符串复习
             //切割字符串 Split()
             if (string.IsNullOrEmpty(str1))
             {
-                Console.WriteLine("是的！");
+                Console.WriteLine("是的！  ");
+
+
             }
             else
             {
